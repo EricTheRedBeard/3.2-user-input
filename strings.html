@@ -1,0 +1,28 @@
+<!-- Author: Eric "the red beard" Wait -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric's location verification</title>
+    
+    <link rel="stylesheet" type="text/css" href="strings.css">
+   </head>
+<body>
+    <form id="userForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" name="zipCode" pattern="[0-9]{5}" title="Zip code must be 5 digits" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <img src="signs.png" style="display: block; margin: 0 auto;">
+    <script src="strings.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Style for the body */
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #f54242;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the form */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #6b81fd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for error message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style for success message */
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
